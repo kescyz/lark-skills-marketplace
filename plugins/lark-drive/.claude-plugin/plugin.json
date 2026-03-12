@@ -1,0 +1,10 @@
+{
+  "name": "lark-drive",
+  "description": "LarkSuite Drive file management - upload, download, organize files and folders, share permissions",
+  "version": "1.0.0",
+  "requires": ["lark-token-manager"],
+  "skills": ["./skills/lark-drive"],
+  "agents": ["./agents/lark-drive-agent.md"],
+  "author": {"name": "KesFlow"},
+  "license": "proprietary"
+}

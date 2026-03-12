@@ -1,0 +1,10 @@
+{
+  "name": "lark-contacts",
+  "description": "LarkSuite contacts - people search, org chart, department hierarchy, user groups",
+  "version": "1.0.0",
+  "requires": ["lark-token-manager"],
+  "skills": ["./skills/lark-contacts"],
+  "agents": ["./agents/lark-contacts-agent.md"],
+  "author": {"name": "KesFlow"},
+  "license": "proprietary"
+}

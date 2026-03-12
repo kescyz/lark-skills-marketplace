@@ -1,0 +1,22 @@
+{
+  "name": "lark-skills",
+  "version": "1.0.0",
+  "description": "LarkSuite enterprise skills for Claude — calendar, tasks, docs, sheets, messenger, contacts, drive, wiki, and more",
+  "owner": {
+    "name": "KesFlow",
+    "email": "contact@kesflow.com"
+  },
+  "plugins": [
+    {"name": "lark-token-manager", "source": "./plugins/lark-token-manager", "description": "OAuth token lifecycle for all Lark skills (shared MCP server)"},
+    {"name": "lark-calendar", "source": "./plugins/lark-calendar", "description": "LarkSuite calendar — events, attendees, scheduling"},
+    {"name": "lark-task", "source": "./plugins/lark-task", "description": "LarkSuite tasks — tasklists, subtasks, sections, custom fields"},
+    {"name": "lark-messenger", "source": "./plugins/lark-messenger", "description": "LarkSuite messenger — send messages as bot, manage group chats"},
+    {"name": "lark-contacts", "source": "./plugins/lark-contacts", "description": "LarkSuite contacts — people search, org chart, departments"},
+    {"name": "lark-base", "source": "./plugins/lark-base", "description": "LarkSuite Bitable — databases, tables, records, views, permissions"},
+    {"name": "lark-base-formula", "source": "./plugins/lark-base-formula", "description": "Bitable formula reference — 100+ functions, syntax patterns"},
+    {"name": "lark-docs", "source": "./plugins/lark-docs", "description": "LarkSuite docs — document creation, block editing"},
+    {"name": "lark-drive", "source": "./plugins/lark-drive", "description": "LarkSuite drive — file management, upload, download, permissions"},
+    {"name": "lark-sheets", "source": "./plugins/lark-sheets", "description": "LarkSuite sheets — spreadsheet read/write, formatting"},
+    {"name": "lark-wiki", "source": "./plugins/lark-wiki", "description": "LarkSuite wiki — spaces, node tree, members, search"}
+  ]
+}

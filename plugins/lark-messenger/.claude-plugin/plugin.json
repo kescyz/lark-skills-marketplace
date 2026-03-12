@@ -1,0 +1,10 @@
+{
+  "name": "lark-messenger",
+  "description": "LarkSuite messenger - messages, group chats, cards, file sharing via bot",
+  "version": "1.0.0",
+  "requires": ["lark-token-manager"],
+  "skills": ["./skills/lark-messenger"],
+  "agents": ["./agents/lark-messenger-agent.md"],
+  "author": {"name": "KesFlow"},
+  "license": "proprietary"
+}

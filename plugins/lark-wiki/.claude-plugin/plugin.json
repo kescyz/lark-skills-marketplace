@@ -1,0 +1,10 @@
+{
+  "name": "lark-wiki",
+  "description": "LarkSuite Wiki knowledge base management - spaces, nodes, pages, members, search",
+  "version": "1.0.0",
+  "requires": ["lark-token-manager"],
+  "skills": ["./skills/lark-wiki"],
+  "agents": ["./agents/lark-wiki-agent.md"],
+  "author": {"name": "KesFlow"},
+  "license": "proprietary"
+}

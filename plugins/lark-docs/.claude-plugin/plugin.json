@@ -1,0 +1,10 @@
+{
+  "name": "lark-docs",
+  "description": "LarkSuite document creation and block editing via DocX API",
+  "version": "1.0.0",
+  "requires": ["lark-token-manager"],
+  "skills": ["./skills/lark-docs"],
+  "agents": ["./agents/lark-docs-agent.md"],
+  "author": {"name": "KesFlow"},
+  "license": "proprietary"
+}

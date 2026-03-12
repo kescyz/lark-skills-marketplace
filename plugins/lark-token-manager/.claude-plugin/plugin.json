@@ -1,0 +1,10 @@
+{
+  "name": "lark-token-manager",
+  "description": "Lark/Feishu OAuth token management via MCP server",
+  "version": "1.1.0",
+  "requires": [],
+  "skills": ["./skills/lark-token-manager"],
+  "agents": ["./agents/lark-admin-agent.md"],
+  "author": {"name": "KesFlow"},
+  "license": "proprietary"
+}

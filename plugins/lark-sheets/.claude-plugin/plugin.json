@@ -1,0 +1,10 @@
+{
+  "name": "lark-sheets",
+  "description": "LarkSuite sheets - spreadsheet read/write, ranges, formatting, pivot tables",
+  "version": "1.0.0",
+  "requires": ["lark-token-manager"],
+  "skills": ["./skills/lark-sheets"],
+  "agents": ["./agents/lark-sheets-agent.md"],
+  "author": {"name": "KesFlow"},
+  "license": "proprietary"
+}

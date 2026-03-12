@@ -1,0 +1,10 @@
+{
+  "name": "lark-base-formula",
+  "description": "Lark Base formula reference - 100+ functions, cross-table patterns, error debugging",
+  "version": "1.0.0",
+  "requires": [],
+  "skills": ["./skills/lark-base-formula"],
+  "agents": ["./agents/lark-base-formula-agent.md"],
+  "author": {"name": "KesFlow"},
+  "license": "proprietary"
+}

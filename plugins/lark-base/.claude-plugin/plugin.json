@@ -1,0 +1,10 @@
+{
+  "name": "lark-base",
+  "description": "LarkSuite Bitable database management - tables, records, fields, views, permissions",
+  "version": "1.0.0",
+  "requires": ["lark-token-manager"],
+  "skills": ["./skills/lark-base"],
+  "agents": ["./agents/lark-base-agent.md"],
+  "author": {"name": "KesFlow"},
+  "license": "proprietary"
+}
